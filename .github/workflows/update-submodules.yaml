@@ -1,0 +1,23 @@
+name: Update submodules
+on:
+  workflow_dispatch:
+  # "At 00:00."(UTC) - https://crontab.guru/#0_0_*_*_*
+  schedule:
+    - cron:  '0 0 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: "true"
+      - name: Update submodules
+        run: |
+          SUBMODULES=(frontend backend openapi)
+          for module in ${SUBMODULES[@]}; do
+            echo "Update submodule: $module"
+            git submodule update --remote "$module"
+            git add "$module"
+            git commit -m "chore: update submodule ($module)"
+          done
+          git push origin main
