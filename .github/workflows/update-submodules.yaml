@@ -20,6 +20,8 @@ jobs:
             echo "Update submodule: $module"
             git submodule update --remote "$module"
             git add "$module"
-            git commit -m "chore: update submodule ($module)"
+            if ! git diff --exit-code --quiet; then
+              git commit -m "chore: update submodule ($module)"
+            fi
           done
           git push origin main
