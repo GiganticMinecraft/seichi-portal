@@ -1,10 +1,14 @@
 name: Lint markdown
 on:
   push:
+    branches:
+      - main
     paths:
       - "**/*.md"
       - ".github/workflows/lint-md.yml"
   pull_request:
+    branches:
+      - main
     paths:
       - "**/*.md"
       - ".github/workflows/lint-md.yml"
