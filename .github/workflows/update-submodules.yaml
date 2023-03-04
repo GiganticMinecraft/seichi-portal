@@ -1,9 +1,9 @@
 name: Update submodules
 on:
   workflow_dispatch:
-  # "At 00:00."(UTC) - https://crontab.guru/#0_0_*_*_*
+  # "At 00:00 on Monday."(UTC) - https://crontab.guru/#0_0_*_*_1
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 0 * * 1'
 jobs:
   update:
     runs-on: ubuntu-latest
