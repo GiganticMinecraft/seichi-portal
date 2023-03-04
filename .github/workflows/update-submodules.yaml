@@ -30,4 +30,5 @@ jobs:
           commit-message: "chore: update submodules"
           title: "Auto update submodules"
           body: "This PR is created to update submodules by GitHub Actions."
+          branch-suffix: "short-commit-hash"
           delete-branch: "true"
