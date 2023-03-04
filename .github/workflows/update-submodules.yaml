@@ -28,7 +28,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "chore: update submodules"
-          committer: "github-actions[bot] github-actions[bot]@users.noreply.github.com"
+          committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           title: "Auto update submodules"
           body: "This PR is created to update submodules by GitHub Actions."
           branch-suffix: "short-commit-hash"
