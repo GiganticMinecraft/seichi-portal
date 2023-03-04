@@ -29,6 +29,7 @@ jobs:
         with:
           commit-message: "chore: update submodules"
           committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           title: "Auto update submodules"
           body: "This PR is created to update submodules by GitHub Actions."
           branch-suffix: "short-commit-hash"
