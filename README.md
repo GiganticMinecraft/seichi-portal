@@ -18,7 +18,7 @@ Seichi Portalは、整地鯖の運営でこれまで使っていた Google Forms
 
 ### submodules
 
-このリポジトリでは、上記に挙げた各リポジトリをsubmodulesで保持しています。毎週月曜日9:00（UTC）に自動的に更新を行いPRを作成するGitHub Actionsによって、これらは最新化されます。
+このリポジトリでは、上記に挙げた各リポジトリをsubmodulesで保持しています。毎週月曜日0:00（UTC）に自動的に更新を行いPRを作成するGitHub Actionsによって、これらは最新化されます。
 
 ## プロジェクト俯瞰図
 
