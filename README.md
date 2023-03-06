@@ -1,6 +1,6 @@
 # Seichi Portal
 
-Seichi Portalは、整地鯖の運営でこれまで使っていた Google Formsを一元化するためのアプリケーションです。
+Seichi Portalは、整地鯖の運営でこれまで使っていた Google Formsを一元化するためのアプリケーションです。ご利用は[こちら](https://portal.seichi.click)から。
 
 このリポジトリは、プロジェクトの目的や関連リポジトリを整理するためのものです。
 
