@@ -14,7 +14,7 @@ Seichi Portalは、整地鯖の運営でこれまで使っていた Google Forms
 |---|---|
 |[seichi-portal-frontend](https://github.com/GiganticMinecraft/seichi-portal-frontend)|Node.jsを用いたSPA<br>バックエンドやMicrosoftなどの外部APIと通信を行い、ユーザーに情報を視覚的に提供する|
 |[seichi-portal-backend](https://github.com/GiganticMinecraft/seichi-portal-backend)|Rustを用いたWebサーバー<br>REST APIを用いてフロントエンドと通信を行い、データの管理や加工を行う|
-|[seichi-api-schema](https://github.com/GiganticMinecraft/seichi-api-schema)|Seichi Portal のAPIの定義|
+|[seichi-portal-api-schema](https://github.com/GiganticMinecraft/seichi-portal-api-schema)|Seichi Portal のAPIの定義|
 
 ### submodules
 
