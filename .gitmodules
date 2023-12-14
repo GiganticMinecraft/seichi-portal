@@ -1,9 +1,0 @@
-[submodule "backend"]
-	path = backend
-	url = https://github.com/GiganticMinecraft/seichi-portal-backend
-[submodule "frontend"]
-	path = frontend
-	url = https://github.com/GiganticMinecraft/seichi-portal-frontend
-[submodule "openapi"]
-	path = openapi
-	url = https://github.com/GiganticMinecraft/seichi-api-schema
